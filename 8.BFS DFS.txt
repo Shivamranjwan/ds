@@ -38,9 +38,14 @@ def exp8():
             start = input("Enter start vertex: ")
             bfs(graph, start)
             print()
+
         elif ch == 2:
             start = input("Enter start vertex: ")
             dfs(graph, start)
             print()
+
         elif ch == 3:
             break
+
+if __name__ == "__main__":
+    exp8()
